@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1DB3532BB68B4D009D0743 /* VegaViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DB3522BB68B4D009D0743 /* VegaViewApp.swift */; };
+		DB1DB3552BB68B4D009D0743 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DB3542BB68B4D009D0743 /* ContentView.swift */; };
+		DB1DB3572BB68B4E009D0743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1DB3562BB68B4E009D0743 /* Assets.xcassets */; };
+		DB1DB35A2BB68B4E009D0743 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1DB3592BB68B4E009D0743 /* Preview Assets.xcassets */; };
+		DB1DB3652BB68B4E009D0743 /* VegaViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DB3642BB68B4E009D0743 /* VegaViewTests.swift */; };
+		DB1DB36F2BB68B4E009D0743 /* VegaViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DB36E2BB68B4E009D0743 /* VegaViewUITests.swift */; };
+		DB1DB3712BB68B4E009D0743 /* VegaViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DB3702BB68B4E009D0743 /* VegaViewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB1DB3612BB68B4E009D0743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1DB3472BB68B4D009D0743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1DB34E2BB68B4D009D0743;
+			remoteInfo = VegaView;
+		};
+		DB1DB36B2BB68B4E009D0743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1DB3472BB68B4D009D0743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1DB34E2BB68B4D009D0743;
+			remoteInfo = VegaView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB1DB34F2BB68B4D009D0743 /* VegaView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VegaView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1DB3522BB68B4D009D0743 /* VegaViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegaViewApp.swift; sourceTree = "<group>"; };
+		DB1DB3542BB68B4D009D0743 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB1DB3562BB68B4E009D0743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1DB3592BB68B4E009D0743 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB1DB35B2BB68B4E009D0743 /* VegaView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VegaView.entitlements; sourceTree = "<group>"; };
+		DB1DB3602BB68B4E009D0743 /* VegaViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VegaViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1DB3642BB68B4E009D0743 /* VegaViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegaViewTests.swift; sourceTree = "<group>"; };
+		DB1DB36A2BB68B4E009D0743 /* VegaViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VegaViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1DB36E2BB68B4E009D0743 /* VegaViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegaViewUITests.swift; sourceTree = "<group>"; };
+		DB1DB3702BB68B4E009D0743 /* VegaViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegaViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1DB34C2BB68B4D009D0743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1DB35D2BB68B4E009D0743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1DB3672BB68B4E009D0743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1DB3462BB68B4D009D0743 = {
+			isa = PBXGroup;
+			children = (
+				DB1DB3512BB68B4D009D0743 /* VegaView */,
+				DB1DB3632BB68B4E009D0743 /* VegaViewTests */,
+				DB1DB36D2BB68B4E009D0743 /* VegaViewUITests */,
+				DB1DB3502BB68B4D009D0743 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1DB3502BB68B4D009D0743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1DB34F2BB68B4D009D0743 /* VegaView.app */,
+				DB1DB3602BB68B4E009D0743 /* VegaViewTests.xctest */,
+				DB1DB36A2BB68B4E009D0743 /* VegaViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1DB3512BB68B4D009D0743 /* VegaView */ = {
+			isa = PBXGroup;
+			children = (
+				DB1DB3522BB68B4D009D0743 /* VegaViewApp.swift */,
+				DB1DB3542BB68B4D009D0743 /* ContentView.swift */,
+				DB1DB3562BB68B4E009D0743 /* Assets.xcassets */,
+				DB1DB35B2BB68B4E009D0743 /* VegaView.entitlements */,
+				DB1DB3582BB68B4E009D0743 /* Preview Content */,
+			);
+			path = VegaView;
+			sourceTree = "<group>";
+		};
+		DB1DB3582BB68B4E009D0743 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB1DB3592BB68B4E009D0743 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB1DB3632BB68B4E009D0743 /* VegaViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1DB3642BB68B4E009D0743 /* VegaViewTests.swift */,
+			);
+			path = VegaViewTests;
+			sourceTree = "<group>";
+		};
+		DB1DB36D2BB68B4E009D0743 /* VegaViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1DB36E2BB68B4E009D0743 /* VegaViewUITests.swift */,
+				DB1DB3702BB68B4E009D0743 /* VegaViewUITestsLaunchTests.swift */,
+			);
+			path = VegaViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1DB34E2BB68B4D009D0743 /* VegaView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1DB3742BB68B4E009D0743 /* Build configuration list for PBXNativeTarget "VegaView" */;
+			buildPhases = (
+				DB1DB34B2BB68B4D009D0743 /* Sources */,
+				DB1DB34C2BB68B4D009D0743 /* Frameworks */,
+				DB1DB34D2BB68B4D009D0743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VegaView;
+			productName = VegaView;
+			productReference = DB1DB34F2BB68B4D009D0743 /* VegaView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1DB35F2BB68B4E009D0743 /* VegaViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1DB3772BB68B4E009D0743 /* Build configuration list for PBXNativeTarget "VegaViewTests" */;
+			buildPhases = (
+				DB1DB35C2BB68B4E009D0743 /* Sources */,
+				DB1DB35D2BB68B4E009D0743 /* Frameworks */,
+				DB1DB35E2BB68B4E009D0743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1DB3622BB68B4E009D0743 /* PBXTargetDependency */,
+			);
+			name = VegaViewTests;
+			productName = VegaViewTests;
+			productReference = DB1DB3602BB68B4E009D0743 /* VegaViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB1DB3692BB68B4E009D0743 /* VegaViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1DB37A2BB68B4E009D0743 /* Build configuration list for PBXNativeTarget "VegaViewUITests" */;
+			buildPhases = (
+				DB1DB3662BB68B4E009D0743 /* Sources */,
+				DB1DB3672BB68B4E009D0743 /* Frameworks */,
+				DB1DB3682BB68B4E009D0743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1DB36C2BB68B4E009D0743 /* PBXTargetDependency */,
+			);
+			name = VegaViewUITests;
+			productName = VegaViewUITests;
+			productReference = DB1DB36A2BB68B4E009D0743 /* VegaViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1DB3472BB68B4D009D0743 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DB1DB34E2BB68B4D009D0743 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DB1DB35F2BB68B4E009D0743 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DB1DB34E2BB68B4D009D0743;
+					};
+					DB1DB3692BB68B4E009D0743 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DB1DB34E2BB68B4D009D0743;
+					};
+				};
+			};
+			buildConfigurationList = DB1DB34A2BB68B4D009D0743 /* Build configuration list for PBXProject "VegaView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1DB3462BB68B4D009D0743;
+			productRefGroup = DB1DB3502BB68B4D009D0743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1DB34E2BB68B4D009D0743 /* VegaView */,
+				DB1DB35F2BB68B4E009D0743 /* VegaViewTests */,
+				DB1DB3692BB68B4E009D0743 /* VegaViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1DB34D2BB68B4D009D0743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1DB35A2BB68B4E009D0743 /* Preview Assets.xcassets in Resources */,
+				DB1DB3572BB68B4E009D0743 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1DB35E2BB68B4E009D0743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1DB3682BB68B4E009D0743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1DB34B2BB68B4D009D0743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1DB3552BB68B4D009D0743 /* ContentView.swift in Sources */,
+				DB1DB3532BB68B4D009D0743 /* VegaViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1DB35C2BB68B4E009D0743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1DB3652BB68B4E009D0743 /* VegaViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1DB3662BB68B4E009D0743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1DB3712BB68B4E009D0743 /* VegaViewUITestsLaunchTests.swift in Sources */,
+				DB1DB36F2BB68B4E009D0743 /* VegaViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB1DB3622BB68B4E009D0743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1DB34E2BB68B4D009D0743 /* VegaView */;
+			targetProxy = DB1DB3612BB68B4E009D0743 /* PBXContainerItemProxy */;
+		};
+		DB1DB36C2BB68B4E009D0743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1DB34E2BB68B4D009D0743 /* VegaView */;
+			targetProxy = DB1DB36B2BB68B4E009D0743 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB1DB3722BB68B4E009D0743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB1DB3732BB68B4E009D0743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DB1DB3752BB68B4E009D0743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VegaView/VegaView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VegaView/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgsig.VegaView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DB1DB3762BB68B4E009D0743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VegaView/VegaView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VegaView/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgsig.VegaView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DB1DB3782BB68B4E009D0743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgsig.VegaViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VegaView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VegaView";
+			};
+			name = Debug;
+		};
+		DB1DB3792BB68B4E009D0743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgsig.VegaViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VegaView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VegaView";
+			};
+			name = Release;
+		};
+		DB1DB37B2BB68B4E009D0743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgsig.VegaViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VegaView;
+			};
+			name = Debug;
+		};
+		DB1DB37C2BB68B4E009D0743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgsig.VegaViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VegaView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1DB34A2BB68B4D009D0743 /* Build configuration list for PBXProject "VegaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1DB3722BB68B4E009D0743 /* Debug */,
+				DB1DB3732BB68B4E009D0743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1DB3742BB68B4E009D0743 /* Build configuration list for PBXNativeTarget "VegaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1DB3752BB68B4E009D0743 /* Debug */,
+				DB1DB3762BB68B4E009D0743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1DB3772BB68B4E009D0743 /* Build configuration list for PBXNativeTarget "VegaViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1DB3782BB68B4E009D0743 /* Debug */,
+				DB1DB3792BB68B4E009D0743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1DB37A2BB68B4E009D0743 /* Build configuration list for PBXNativeTarget "VegaViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1DB37B2BB68B4E009D0743 /* Debug */,
+				DB1DB37C2BB68B4E009D0743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1DB3472BB68B4D009D0743 /* Project object */;
+}

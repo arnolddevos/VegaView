@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct VegaViewApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Window("Vega View", id: "main") {
+            VegaWebView()
         }
     }
 }

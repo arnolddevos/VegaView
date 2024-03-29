@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DB1DB3532BB68B4D009D0743 /* VegaViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DB3522BB68B4D009D0743 /* VegaViewApp.swift */; };
-		DB1DB3552BB68B4D009D0743 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DB3542BB68B4D009D0743 /* ContentView.swift */; };
 		DB1DB3572BB68B4E009D0743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1DB3562BB68B4E009D0743 /* Assets.xcassets */; };
 		DB1DB35A2BB68B4E009D0743 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1DB3592BB68B4E009D0743 /* Preview Assets.xcassets */; };
 		DB1DB3652BB68B4E009D0743 /* VegaViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DB3642BB68B4E009D0743 /* VegaViewTests.swift */; };
 		DB1DB36F2BB68B4E009D0743 /* VegaViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DB36E2BB68B4E009D0743 /* VegaViewUITests.swift */; };
 		DB1DB3712BB68B4E009D0743 /* VegaViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DB3702BB68B4E009D0743 /* VegaViewUITestsLaunchTests.swift */; };
+		DB1DB3802BB6A56F009D0743 /* VegaWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DB37F2BB6A56F009D0743 /* VegaWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		DB1DB34F2BB68B4D009D0743 /* VegaView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VegaView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1DB3522BB68B4D009D0743 /* VegaViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegaViewApp.swift; sourceTree = "<group>"; };
-		DB1DB3542BB68B4D009D0743 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB1DB3562BB68B4E009D0743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB1DB3592BB68B4E009D0743 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB1DB35B2BB68B4E009D0743 /* VegaView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VegaView.entitlements; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		DB1DB36A2BB68B4E009D0743 /* VegaViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VegaViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1DB36E2BB68B4E009D0743 /* VegaViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegaViewUITests.swift; sourceTree = "<group>"; };
 		DB1DB3702BB68B4E009D0743 /* VegaViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegaViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB1DB37F2BB6A56F009D0743 /* VegaWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegaWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				DB1DB3522BB68B4D009D0743 /* VegaViewApp.swift */,
-				DB1DB3542BB68B4D009D0743 /* ContentView.swift */,
+				DB1DB37F2BB6A56F009D0743 /* VegaWebView.swift */,
 				DB1DB3562BB68B4E009D0743 /* Assets.xcassets */,
 				DB1DB35B2BB68B4E009D0743 /* VegaView.entitlements */,
 				DB1DB3582BB68B4E009D0743 /* Preview Content */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1DB3552BB68B4D009D0743 /* ContentView.swift in Sources */,
+				DB1DB3802BB6A56F009D0743 /* VegaWebView.swift in Sources */,
 				DB1DB3532BB68B4D009D0743 /* VegaViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

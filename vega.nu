@@ -13,7 +13,10 @@ export def expand [title: string spec] {
   <script src='https://cdn.jsdelivr.net/npm/vega@5.27.0'></script>
   <script src='https://cdn.jsdelivr.net/npm/vega-lite@5.17.0'></script>
   <script src='https://cdn.jsdelivr.net/npm/vega-embed@6.24.0'></script>
-
+  <style>
+    h1 { font-family: sans-serif }
+    #vis { width: 100% }
+  </style>
 </head>
 
 <body>
@@ -36,18 +39,19 @@ export def view [title: string spec] {
     expand $title $spec | ~/Desktop/VegaView.app/Contents/MacOS/VegaView
 }
 
-export def bars [x: string y: string] {
+export def bars [x: string, y: string, aggregate: string = 'average' ] {
     {
       '$schema': 'https://vega.github.io/schema/vega-lite/v5.json',
-      mark: 'bar',
+      mark: { 'type': 'bar', tooltip: true } ,
+      "width": "container",
       encoding: {
         y: { field: $x, type: 'nominal' },
         x: {
-          aggregate: 'average',
+          aggregate: $aggregate,
           field: $y,
           type: 'quantitative',
           axis: {
-            title: ('Average of ' ++ $y)
+            title: $"($aggregate) of ($y)"
           }
         }
       }
